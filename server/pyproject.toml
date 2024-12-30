@@ -1,0 +1,10 @@
+[project]
+name = "server"
+version = "0.1.0"
+description = "FastAPI server for Church of Jesus Christ API"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "church_of_jesus_christ_api>=0.1.0",
+    "fastapi[standard]>=0.115.6",
+]
